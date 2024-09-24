@@ -1,45 +1,44 @@
-# Team Assignment #1
-## Data Sourcing
+
+# Team Assignment #4
+## Data Exploration 
 
 ## Instructions
-1. Create a feature branch in the class GitHub repository for your team. 
+For this assignment, you will be using the Welltory COVID-19 and Wearables Open Data Research dataset. This dataset is messy and exploration of it is meant to be less similar to cleaned datasets you may see in classrooms or on Kaggle and more relevant to real-world dataset exploration. Data is available [here](https://github.com/Welltory/hrv-covid19/tree/master).
+Note: you will first need to organize the data to enable your analysis.
 
-2. Put together a code demo for your assigned topic. 
-Code should be:
-* Clean and well organized script
-* Using best practices (if you aren’t sure, go back to the Premodule content)
-* Well-commented
-* Contains appropriate unit testing
-* Clear name (ie ‘web-scraping-selenium.py’)
+For this assignment, you will provide a Jupyter notebook report of your exploratory data analysis.
 
-3. Create a <5 minute video documenting your topic and code demo. 
+### In your Jupyter notebook report, complete the following:
+* Document data context and data sampling in markdown
+* Explore and interpret data structure, descriptive statistics, data quality, and variable relationships
+* Explore data visually with appropriate visualizations
+* Discuss and implement strategies for Handling Missing Values, Removing Duplicates, and Handling Outliers
+* Perform data transformation as appropriate
+* Create at least one new feature and document your approach
+* Perform a dimensionality reduction method on the data and discuss 
+* Include a discussion around data quality assessment, including data profiling, data completeness, data accuracy, data consistency, data integrity, and data lineage and provenance
 
 ## Submission
-To submit your code, make a PR into the data-sourcing-ta1 branch and add me and the TA as reviewers. In your PR, add the link to your demo video. Also, add any requirements (and versions) that are not currently in the requirements.txt file to the text of your PR.
-
-## Topics
-* Web scraping with Selenium
-* Web scraping with Beautiful Soup
-* Web scraping using requests
-* Using Hugging Face API for getting datasets
-* Use an API from a social platform (i.e. Strava, Twitter)
-* Use the PubMed API
-* [maybe] Collect sensor data from a Raspberry Pi (temperature sensor may be the easiest, but you can use any sensor)
-
+To submit your code, make a PR into the data-eda-ta4 branch and add me and the TA as reviewers. Make sure the name of your notebook follows best practices and includes your team name.
 ## Rubric
-### Code (30 points)
-* Code is a script, not a notebook
+
+### Report (35 points)
+* Report includes a title, authors, dates, and relevant information for running it at the top 
+* Report includes a reference to the original dataset
+* Data context and sampling is documented in markdown
+* Code and documented interpretation of data structure
+* Code and documented interpretation of descriptive statistics
+* Code and documented interpretation of data quality
+* Code and documented interpretation of variable relationships
+* Visualizations used are complete and appropriate and interpretation(s) are documented in the notebook
+* Visualizations follow best practices (titles, axes labels, etc)
+* Strategies for handling missing values, outliers, and removing duplicates are implemented and/or discussed
+* Appropriate data transformation is performed
+* One new feature is engineered and documented
+* A dimensionality reduction method is performed and interpreted
+* A discussion on data quality assessment is included and incorporates the following components: data profiling, data completeness, data accuracy, data consistency, data integrity, and data lineage and provenance
+
+### Code (10 points)
+* Code is in a clearly named notebook
 * Code is clean and well organized
 * Code is documented with docstrings and comments 
-* Code is free of commented out code (ie debug print statements)
-* Script has a clear name
-* Branching and PRs were done appropriately
-* Requirements are included in the text of the PR and are correct and versioned
-* The code runs as documented
-
-### Video (15 points)
-* < 5 minutes
-* The video is of mid-high production quality and doesn’t contain significant background noise 
-* Video is well organized and clear
-* Video documents topic and code effectively
-
